@@ -1,8 +1,3 @@
-<style>
-    .margen{
-        margin-top:50px;
-    }
-</style>
 <h2 align="center" style=>
 Programas y documentación detallada del artículo "Electrical energy consumption monitoring system in the residential sector using IoT"
 </h2>
