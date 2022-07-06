@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Facturacion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="-2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Pay Menu"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/EditCorte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="Fecha de Corte"
+                android:layout_marginStart="20dp"
+                android:inputType="textPersonName"
+                android:paddingVertical="20dp"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_conversion_absoluteHeight="53dp"
+                tools:layout_conversion_absoluteWidth="278dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="176dp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="AbrirCalendario"
+                android:text="Abrir Calendario"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ID_sel" />
+
+            <EditText
+                android:id="@+id/EditCosto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="Costo kWh"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:inputType="textPersonName"
+                android:paddingVertical="20dp"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_conversion_absoluteHeight="53dp"
+                tools:layout_conversion_absoluteWidth="278dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="176dp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:onClick="sube_facturacion"
+                android:text="Registrar"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/button2"
+                app:layout_constraintTop_toBottomOf="@+id/ID_sel" />
+        </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

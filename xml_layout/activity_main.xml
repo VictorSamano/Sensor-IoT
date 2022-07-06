@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:paddingVertical="10dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_conversion_absoluteHeight="90dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp">
+
+                <TextView
+                    android:id="@+id/txt_TURL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Server"
+                    android:textSize="18sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_conversion_absoluteHeight="16dp"
+                    tools:layout_conversion_absoluteWidth="89dp" />
+
+                <EditText
+                    android:id="@+id/txt_URL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:baselineAligned="false"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="textUri|textPersonName|textEmailAddress"
+                    android:labelFor="@id/txt_URL"
+                    android:text="@string/et_URL"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="@+id/txt_TURL"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_TURL"
+                    tools:layout_conversion_absoluteHeight="53dp"
+                    tools:layout_conversion_absoluteWidth="278dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/txt_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/ChannelID"
+                android:inputType="phone"
+                android:paddingVertical="20dp"
+                android:textSize="24sp"
+                tools:layout_conversion_absoluteHeight="53dp"
+                tools:layout_conversion_absoluteWidth="278dp" />
+
+            <Switch
+                android:id="@+id/PrCh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Credentials"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txt_API"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/API_KEY"
+                android:inputType="textPersonName"
+                android:paddingVertical="20dp"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_ID"
+                tools:layout_conversion_absoluteHeight="53dp"
+                tools:layout_conversion_absoluteWidth="278dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="176dp"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="Agregar"
+                android:paddingVertical="20dp"
+                android:text="@string/AddChannel2"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_API"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="104dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="262dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

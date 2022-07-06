@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ProjectName">Proyecto IoT</string>
+    <string name="Logging">Ingresar</string>
+    <string name="DeleteChannel">Eliminar Canal</string>
+    <string name="AddChannel">Agregar nuevo Canal</string>
+
+    <string name="Server">SERVIDOR</string>
+    <string name="ChannelID">Canal ID</string>
+    <string name="Credentials">CREDENCIAL PRIVADA</string>
+    <string name="API_KEY">API KEY</string>
+    <string name="AddChannel2">"AGREGAR CANAL"</string>
+
+    <string name="Samples">Datos a Graficar</string>
+    <string name="NoSamples">Cantidad de Datos</string>
+    <string name="Update">ACTUALIZAR</string>
+    <string name="GetData">OBTENER DATOS</string>
+
+    <string-array name="combo_Samples">
+        <item>Selecione</item>
+        <item>Datos</item>
+    </string-array>
+    <string-array name="combo_Opciones">
+        <item>Periodo</item>
+        <item>Datos</item>
+        <item>Minutos</item>
+        <item>Horas</item>
+        <item>Días</item>
+    </string-array>
+
+    <string name="Mean">Media: </string>
+
+    <string name="Visualizacion">Desfase (V-I)</string>
+    <integer name="ChannelView">1772665</integer>
+    <string name="URLMedido">https://thingspeak.com/apps/matlab_visualizations/466302?size=iframe</string>
+    <string name="URLSamano">https://thingspeak.com/apps/matlab_visualizations/418713?size=iframe</string>
+    <string name="URLConsumedEnergy">https://thingspeak.com/channels/1772682/widgets/488844?size=iframe</string>
+    <string name="URLConsumedEnergyPerDay">https://thingspeak.com/channels/1772682/widgets/484675?size=iframe</string>
+    <string name="URLGeneratedCost">https://thingspeak.com/channels/1772682/widgets/484678?size=iframe</string>
+    <string name="URLGeneratedCostPerDay">https://thingspeak.com/channels/1772682/widgets/484679?size=iframe</string>
+
+    <string name="ConsumedEnergy">Energía Consumida (kWh)</string>
+    <string name="ConsumedEnergyPerDay">Energía Consumida por Día (kWh)</string>
+    <string name="GeneratedCost">Costo Generado ($)</string>
+    <string name="GeneratedCostPerDay">Costo Generado por Día ($)</string>
+
+    <!--
+    <string name="ProjectName">CHIL IoT Project</string>
+    <string name="Logging"> LOG IN</string>
+    <string name="DeleteChannel">DELETE CHANNEL</string>
+    <string name="AddChannel">ADD NEW CHANNEL</string>
+
+    <string name="Server">SERVER URL</string>
+    <string name="ChannelID">Channel ID</string>
+    <string name="Credentials">PRIVATE CREDENTIALS</string>
+    <string name="API_KEY">API KEY</string>
+    <string name="AddChannel2">"ADD CHANNEL"</string>
+
+    <string name="Samples">Samples in the Graph</string>
+    <string name="NoSamples">Enter Samples</string>
+    <string name="Update">UPDATE</string>
+    <string name="GetData">GET DATA</string>
+
+    <string-array name="combo_Samples">
+        <item>Select an Option</item>
+        <item>Samples</item>
+    </string-array>
+    <string-array name="combo_Opciones">
+        <item>Time Frame</item>
+        <item>Samples</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+    </string-array>
+
+    <string name="Mean">Mean: </string>
+    <string name="Visualizacion">Power Comparison</string>
+    -->
+
+
+</resources>
